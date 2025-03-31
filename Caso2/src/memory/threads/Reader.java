@@ -17,7 +17,7 @@ public class Reader extends Thread {
     private static final String FILE_ERROR_MESSAGE = "Error writing to file: ";
 
     // Constants for output formatting
-    private static final String REPORT_SEPARATOR = "\n|-----------------------------------------------------------|";
+    private static final String REPORT_SEPARATOR = "\n*****************************************************";
     private static final String PAGE_SIZE_MESSAGE = "                Page size: %d";
     private static final String FRAMES_MESSAGE = "                Frames: %d";
     private static final String REFERENCES_MESSAGE = "                References: %d";
