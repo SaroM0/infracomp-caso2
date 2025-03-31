@@ -17,12 +17,12 @@ public class Reader extends Thread {
     private static final String FILE_ERROR_MESSAGE = "Error writing to file: ";
 
     // Constants for output formatting
-    private static final String REPORT_SEPARATOR = "\n*****************************************************";
-    private static final String PAGE_SIZE_MESSAGE = "                Page size: %d";
-    private static final String FRAMES_MESSAGE = "                Frames: %d";
-    private static final String REFERENCES_MESSAGE = "                References: %d";
-    private static final String HITS_MESSAGE = "                Hits: %d (%%%.2f)";
-    private static final String FAULTS_MESSAGE = "                Faults: %d (%%%.2f)";
+    private static final String REPORT_SEPARATOR = "\n===============================";
+    private static final String PAGE_SIZE_MESSAGE = "Page size: %d";
+    private static final String FRAMES_MESSAGE = "Frames: %d";
+    private static final String REFERENCES_MESSAGE = "References: %d";
+    private static final String HITS_MESSAGE = "Hits: %d (%%%.2f)";
+    private static final String FAULTS_MESSAGE = "Faults: %d (%%%.2f)";
 
     // Constants for page fault handling
     private static final String MODIFIED_PAGE_ERROR = "The modified page is not found in SWAP memory.";
